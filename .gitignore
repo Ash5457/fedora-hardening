@@ -1,0 +1,7 @@
+# Never commit these
+*.img
+*luks*header*
+luksdump-full*
+*.bak
+*.orig
+*.swp
