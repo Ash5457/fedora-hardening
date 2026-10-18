@@ -1,0 +1,28 @@
+$ sudo btrfs filesystem usage /
+# captured 2026-10-17T17:29:10-04:00
+
+Overall:
+    Device size:		 235.87GiB
+    Device allocated:		  27.02GiB
+    Device unallocated:		 208.85GiB
+    Device missing:		     0.00B
+    Device slack:		     0.00B
+    Used:			  24.00GiB
+    Free (estimated):		 211.30GiB	(min: 106.88GiB)
+    Free (statfs, df):		 211.30GiB
+    Data ratio:			      1.00
+    Metadata ratio:		      2.00
+    Global reserve:		  61.36MiB	(used: 0.00B)
+    Multiple profiles:		        no
+
+Data,single: Size:25.01GiB, Used:22.55GiB (90.18%)
+   /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120	  25.01GiB
+
+Metadata,DUP: Size:1.00GiB, Used:740.66MiB (72.33%)
+   /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120	   2.00GiB
+
+System,DUP: Size:8.00MiB, Used:16.00KiB (0.20%)
+   /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120	  16.00MiB
+
+Unallocated:
+   /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120	 208.85GiB

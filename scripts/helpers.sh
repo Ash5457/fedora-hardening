@@ -1,12 +1,13 @@
-# Loaded from ~/.bashrc. Provides: lab, cap, shot, publish.
-source "$HOME/.config/fedora-hardening.env"
+# Loaded from ~/.zshrc or ~/.bashrc. Provides: lab, cap, shot, publish.
+# Written to work in both zsh and bash (no arrays, no shopt, no globbing).
+. "$HOME/.config/fedora-hardening.env"
 
 # lab 01   jump to that module's folder in the vault
 lab() {
-  local -a d
-  shopt -s nullglob; d=("$VAULT_DIR/$1"-*/); shopt -u nullglob
-  [[ ${#d[@]} -eq 1 ]] || { echo "usage: lab <01-08>"; return 1; }
-  cd "${d[0]}" && echo "== $(basename "$PWD") =="
+  local d
+  d="$(find "$VAULT_DIR" -maxdepth 1 -type d -name "$1-*" 2>/dev/null | head -n 1)"
+  [ -n "$1" ] && [ -n "$d" ] || { echo "usage: lab <01-08>"; return 1; }
+  cd "$d" && echo "== ${d##*/} =="
 }
 
 # cap outputs/x.txt <command...>   run, show, and save. Redacted before it touches the disk.

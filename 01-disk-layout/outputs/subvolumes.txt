@@ -1,0 +1,6 @@
+$ sudo btrfs subvolume list /
+# captured 2026-10-17T17:28:59-04:00
+
+ID 256 gen 7006 top level 5 path root
+ID 257 gen 7006 top level 5 path home
+ID 258 gen 606 top level 256 path var/lib/machines

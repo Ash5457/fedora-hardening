@@ -1,0 +1,12 @@
+$ lsblk -f
+# captured 2026-10-17T17:27:51-04:00
+
+NAME                                          FSTYPE      FSVER LABEL  UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                                                                        
+zram0                                         swap        1     zram0  6e1d6f34-eee5-4cfb-8f8e-a1b018cac66a                [SWAP]
+nvme0n1                                                                                                                    
+├─nvme0n1p1                                   vfat        FAT32        0CD1-510F                             578.7M     3% /boot/efi
+├─nvme0n1p2                                   ext4        1.0          de2bb76a-9094-461e-a24f-095ceb95d357    1.3G    27% /boot
+└─nvme0n1p3                                   crypto_LUKS 2            409f284b-fbaf-417c-856c-d27cde11b120                
+  └─luks-409f284b-fbaf-417c-856c-d27cde11b120 btrfs             fedora 04aaa475-cb4f-4e1f-9501-9283b383b6c6  211.3G    10% /home
+                                                                                                                           /

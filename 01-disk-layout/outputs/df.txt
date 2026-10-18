@@ -1,0 +1,17 @@
+$ df -hT
+# captured 2026-10-17T17:27:59-04:00
+
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/dm-0      btrfs     236G   25G  212G  11% /
+devtmpfs       devtmpfs  7.7G     0  7.7G   0% /dev
+tmpfs          tmpfs     7.8G   37M  7.8G   1% /dev/shm
+efivarfs       efivarfs  154K   58K   92K  39% /sys/firmware/efi/efivars
+tmpfs          tmpfs     3.1G  2.0M  3.1G   1% /run
+none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-cryptsetup@luks\x2d409f284b\x2dfbaf\x2d417c\x2d856c\x2dd27cde11b120.service
+none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none           tmpfs     1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p2 ext4      2.0G  522M  1.3G  29% /boot
+/dev/dm-0      btrfs     236G   25G  212G  11% /home
+tmpfs          tmpfs     7.8G  5.3M  7.8G   1% /tmp
+/dev/nvme0n1p1 vfat      599M   21M  579M   4% /boot/efi
+tmpfs          tmpfs     1.6G  5.1M  1.6G   1% /run/user/1000

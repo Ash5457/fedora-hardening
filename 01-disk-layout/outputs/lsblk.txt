@@ -1,0 +1,12 @@
+$ lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS
+# captured 2026-10-17T17:27:36-04:00
+
+NAME                                            SIZE TYPE  FSTYPE      MOUNTPOINTS
+sda                                               0B disk              
+zram0                                             8G disk  swap        [SWAP]
+nvme0n1                                       238.5G disk              
+├─nvme0n1p1                                     600M part  vfat        /boot/efi
+├─nvme0n1p2                                       2G part  ext4        /boot
+└─nvme0n1p3                                   235.9G part  crypto_LUKS 
+  └─luks-409f284b-fbaf-417c-856c-d27cde11b120 235.9G crypt btrfs       /home
+                                                                       /

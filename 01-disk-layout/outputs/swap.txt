@@ -1,0 +1,5 @@
+$ swapon --show
+# captured 2026-10-17T17:29:18-04:00
+
+NAME       TYPE      SIZE USED PRIO
+/dev/zram0 partition   8G   0B  100

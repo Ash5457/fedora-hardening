@@ -1,0 +1,6 @@
+$ findmnt -t btrfs
+# captured 2026-10-17T17:28:39-04:00
+
+TARGET  SOURCE                                                       FSTYPE OPTIONS
+/       /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120[/root] btrfs  rw,relatime,seclabel,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=256,subvol=/root
+└─/home /dev/mapper/luks-409f284b-fbaf-417c-856c-d27cde11b120[/home] btrfs  rw,relatime,seclabel,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=257,subvol=/home

@@ -1,0 +1,4 @@
+$ sudo cat /etc/crypttab
+# captured 2026-10-17T17:28:14-04:00
+
+luks-409f284b-fbaf-417c-856c-d27cde11b120 UUID=409f284b-fbaf-417c-856c-d27cde11b120 none discard,x-initrd.attach
