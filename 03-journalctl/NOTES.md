@@ -8,7 +8,7 @@ The journal is systemd's logging system. It collects messages from almost everyt
 
 Every entry carries structured fields, not just a line of text: a microsecond timestamp, the user ID (`_UID`), the process ID (`_PID`), the program name (`_COMM`), the systemd unit that produced it (`_SYSTEMD_UNIT`), and which boot it came from (`_BOOT_ID`). That is what makes filtering so precise.
 
-Traditional logs in `/var/log` are plain text files written by a syslog daemon like rsyslog, usually one file per app or category, readable with `cat` or `less`. On a system running both, the journal sits upstream: it catches everything first and can forward copies to the syslog daemon. Fedora does not install rsyslog by default anymore, so on my machine the journal is the main log. The journal itself lives in `/var/log/journal/`.
+Traditional logs in `/var/log` are plain text files written by a syslog daemon like rsyslog, usually one file per app or category, readable with `cat` or `less`. The journal sits upstream: it catches everything first and forwards copies to the syslog daemon. My machine runs both (`rsyslog.service` is enabled), so the same messages also land in text files like `/var/log/messages`. The journal itself lives in `/var/log/journal/`.
 
 ### 2. What does "filter by boot" mean, and why is it useful after a crash or bad update?
 
