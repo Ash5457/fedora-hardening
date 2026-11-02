@@ -29,7 +29,14 @@ if [[ -n "$report" ]]; then
 fi
 
 git add -A -- "${paths[@]}"
-if git diff --cached --quiet; then echo "Nothing new to publish."; exit 0; fi
+if git diff --cached --quiet; then
+  if [ -n "$(git log origin/main..main --oneline 2>/dev/null)" ]; then
+    git push -q -u origin main && echo "Pushed commits that were not pushed yet."
+  else
+    echo "Nothing new to publish."
+  fi
+  exit 0
+fi
 echo "--- going public:"; git status --short
 echo "Screenshots cannot be scanned. Glance at any new .png above before confirming."
 read -rp "Commit and push? [Y/n] " go
