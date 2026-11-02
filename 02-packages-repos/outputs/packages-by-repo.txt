@@ -1,0 +1,17 @@
+$ bash -c dnf repoquery --installed --qf '%{from_repo}\n' | sort | uniq -c | sort -rn
+# captured 2026-10-17T20:21:28-04:00
+
+      1 updates
+      1 tailscale-stable
+      1 fedora-cisco-openh264
+      1 fedora
+      1 copr:copr.fedorainfracloud.org:tofik:nwg-shell
+      1 copr:copr.fedorainfracloud.org:sdegler:hyprland
+      1 copr:copr.fedorainfracloud.org:scottames:ghostty
+      1 copr:copr.fedorainfracloud.org:scottames:awww
+      1 copr:copr.fedorainfracloud.org:lihaohong:yazi
+      1 copr:copr.fedorainfracloud.org:errornointernet:quickshell
+      1 copr:copr.fedorainfracloud.org:errornointernet:packages
+      1 copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter
+      1 @commandline
+      1 19278be6a81040f5b6cbc7bacea5148e

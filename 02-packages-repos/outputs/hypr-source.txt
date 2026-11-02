@@ -1,0 +1,24 @@
+$ bash -c dnf repoquery --installed --qf '%{name} %{from_repo}\n' | grep -i hypr
+# captured 2026-10-17T20:21:37-04:00
+
+aquamarine copr:copr.fedorainfracloud.org:sdegler:hyprland
+cliphist copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprcursor copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprgraphics copr:copr.fedorainfracloud.org:sdegler:hyprland
+hypridle copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprland copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprland-guiutils copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprland-qt-support copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprland-uwsm copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprlang copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprlock copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprpaper copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprpicker copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprpolkitagent copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprsunset copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprtoolkit copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprutils copr:copr.fedorainfracloud.org:sdegler:hyprland
+hyprwire copr:copr.fedorainfracloud.org:sdegler:hyprland
+uwsm copr:copr.fedorainfracloud.org:sdegler:hyprland
+waybar copr:copr.fedorainfracloud.org:sdegler:hyprland
+xdg-desktop-portal-hyprland copr:copr.fedorainfracloud.org:sdegler:hyprland

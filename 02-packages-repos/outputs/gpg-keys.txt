@@ -1,0 +1,13 @@
+$ bash -c rpmkeys --list 2>/dev/null || rpm -qa 'gpg-pubkey*'
+# captured 2026-10-17T20:21:56-04:00
+
+c1d4c77749293cfd57f5dbec069a483bb13958d3 errornointernet_quickshell (None) <errornointernet#quickshell@copr.fedorahosted.org> public key
+2596a99eaab33821893c0a79458ca832957f5868 Tailscale Inc. (Package repository signing key) <info@tailscale.com> public key
+339a875661773076d76d58d5617d732a779a25a3 errornointernet_packages (None) <errornointernet#packages@copr.fedorahosted.org> public key
+76415dcf949bcd41212eed846ea88d423ee6b063 scottames_awww (None) <scottames#awww@copr.fedorahosted.org> public key
+4eaddc9bc994c0aaa2133f6576ebf162307f80b9 erikreider_SwayNotificationCenter (None) <erikreider#SwayNotificationCenter@copr.fedorahosted.org> public key
+2defb319ccc3f393b6daeab297c83ca0feb5dafb scottames_ghostty (None) <scottames#ghostty@copr.fedorahosted.org> public key
+fa32fc04c04fd33ae5924f4cbc2926706c3c5e76 lihaohong_yazi (None) <lihaohong#yazi@copr.fedorahosted.org> public key
+64bbbf013d1ca5e4be5b0552c043104207862204 sdegler_hyprland (None) <sdegler#hyprland@copr.fedorahosted.org> public key
+3bdcfc5ec736d2f5fa2fb6cdd84638cd04763766 tofik_nwg-shell (None) <tofik#nwg-shell@copr.fedorahosted.org> public key
+36f612dcf27f7d1a48a835e4dbfcf71c6d9f90a6 Fedora (44) <fedora-44-primary@fedoraproject.org> public key

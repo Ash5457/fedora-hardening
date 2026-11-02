@@ -1,0 +1,28 @@
+$ bash -c dnf history list | head -n 25
+# captured 2026-10-17T20:22:02-04:00
+
+ ID Command line                          Date and time       Action(s) Altered
+153 dnf update                            2026-10-17 23:59:43               110
+152 dnf update                            2026-10-15 21:34:15                10
+151 dnf update                            2026-10-14 03:01:40                73
+150 dnf install cmatrix                   2026-10-14 02:44:27                 1
+149 dnf install ImageMagick imv           2026-10-11 20:58:24                 4
+148 dnf install grim slurp swappy asciine 2026-10-11 19:06:52                 1
+147 dnf install fuse-libs                 2026-10-11 18:27:11                 1
+146 dnf install git gh                    2026-10-11 00:02:28                 1
+145 dnf upgrade --refresh tailscale       2026-10-10 18:23:29                 2
+144 dnf autoremove                        2026-10-10 18:01:10                10
+143 dnf update                            2026-10-10 17:58:38                53
+142 dnf install tailscale                 2026-10-10 17:50:58                 1
+141 dnf install freerdp remmina           2026-10-10 17:24:46                11
+140 dnf install -y zsh                    2026-10-09 20:16:34                 2
+139 dnf install -y lsd                    2026-10-09 20:16:30                 1
+138 dnf install -y xarchiver              2026-10-09 20:16:25                 1
+137 dnf install -y thunar-archive-plugin  2026-10-09 20:16:22                 1
+136 dnf install -y thunar-volman          2026-10-09 20:16:19                 1
+135 dnf install -y Thunar                 2026-10-09 20:16:14                 7
+134 dnf install -y ffmpegthumbnailer      2026-10-09 20:16:09                 2
+133 dnf install -y blueman                2026-10-09 20:16:03                 3
+132 dnf install -y bluez-tools            2026-10-09 20:15:59                 1
+131 dnf install -y quickshell             2026-10-09 20:15:39                 3
+130 dnf install -y hyprlock               2026-10-09 20:15:31                 1

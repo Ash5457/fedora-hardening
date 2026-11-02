@@ -1,0 +1,4 @@
+$ flatpak list --app
+# captured 2026-10-17T20:21:49-04:00
+
+Discord	com.discordapp.Discord	1.0.161	stable	system

@@ -1,0 +1,11 @@
+$ dnf advisory list --security
+# captured 2026-10-17T20:22:16-04:00
+
+Updating and loading repositories:
+Repositories loaded.
+Name                   Type     Severity                                      Package              Issued
+FEDORA-2026-1a3e2d0ffe security Important               kernel-7.2.11-200.fc44.x86_64 2026-10-16 20:56:12
+FEDORA-2026-1a3e2d0ffe security Important          kernel-core-7.2.11-200.fc44.x86_64 2026-10-16 20:56:12
+FEDORA-2026-1a3e2d0ffe security Important       kernel-modules-7.2.11-200.fc44.x86_64 2026-10-16 20:56:12
+FEDORA-2026-1a3e2d0ffe security Important  kernel-modules-core-7.2.11-200.fc44.x86_64 2026-10-16 20:56:12
+FEDORA-2026-1a3e2d0ffe security Important kernel-modules-extra-7.2.11-200.fc44.x86_64 2026-10-16 20:56:12

@@ -1,0 +1,9 @@
+$ grep -E ^(upgrade_type|download_updates|apply_updates|reboot|emit_via) /etc/dnf/automatic.conf
+# captured 2026-10-17T21:53:47-04:00
+
+apply_updates = no
+download_updates = yes
+upgrade_type = security
+reboot = never
+reboot_command = "shutdown -r +5 'Rebooting after applying package updates'"
+emit_via = stdio

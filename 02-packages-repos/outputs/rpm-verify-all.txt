@@ -1,0 +1,34 @@
+$ sudo rpm -Va
+# captured 2026-10-17T20:23:11-04:00
+
+.M.......    /usr/bin
+.......T.  c /etc/sysconfig/nftables.conf
+.......T.  c /etc/sysconfig/kernel
+.......T.  c /etc/sysconfig/raid-check
+.M.......    /boot/efi/System
+.M.......    /boot/efi/System/Library
+.M.......    /boot/efi/System/Library/CoreServices
+.M.....T.    /boot/efi/System/Library/CoreServices/SystemVersion.plist
+.M.....T.    /boot/efi/mach_kernel
+.....UG..  g /var/run/pcscd
+.......T.  c /etc/sysconfig/run-parts
+.......T.  c /etc/sysconfig/crond
+.......T.  c /etc/sysconfig/wsdd
+.......T.  c /etc/sysconfig/wpa_supplicant
+.......T.  c /etc/sysconfig/man-db
+..5....T.  c /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:phracek:PyCharm.repo
+..5....T.  c /etc/yum.repos.d/google-chrome.repo
+..5....T.  c /etc/yum.repos.d/rpmfusion-nonfree-nvidia-driver.repo
+..5....T.  c /etc/yum.repos.d/rpmfusion-nonfree-steam.repo
+.......T.  c /etc/sysconfig/qemu-ga
+.......T.  c /etc/sysconfig/atd
+S.5....T.  c /etc/sysconfig/livesys
+.M.......    /var/lib/fwupd
+.M.......  g /run/gdm
+.M.......  g /var/lib/gdm
+.M....G..  g /var/log/gdm
+S.5....T.  c /etc/dnf/dnf.conf
+.M.......  g /var/lib/selinux/targeted/active/modules/200/NetworkManager-ssh
+.M.......  g /var/lib/boltd
+.M.......  g /run/thermald/thermald.pid
+.M.......    /var/cache/tailscale

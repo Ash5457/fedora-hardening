@@ -1,0 +1,19 @@
+$ dnf copr list
+# captured 2026-10-17T20:21:20-04:00
+
+copr.fedorainfracloud.org/alternateved/eza
+copr.fedorainfracloud.org/atim/lazydocker
+copr.fedorainfracloud.org/atim/lazygit
+copr.fedorainfracloud.org/atim/starship
+copr.fedorainfracloud.org/erikreider/SwayNotificationCenter
+copr.fedorainfracloud.org/errornointernet/packages
+copr.fedorainfracloud.org/errornointernet/quickshell
+copr.fedorainfracloud.org/lihaohong/yazi
+copr.fedorainfracloud.org/opuk/bottom
+copr.fedorainfracloud.org/phracek/PyCharm
+copr.fedorainfracloud.org/scottames/awww
+copr.fedorainfracloud.org/scottames/ghostty
+copr.fedorainfracloud.org/sdegler/hyprland
+copr.fedorainfracloud.org/tofik/nwg-shell [eternal_deps]
+copr.fedorainfracloud.org/wezfurlong/wezterm-nightly
+copr.fedorainfracloud.org/yorickpeterse/stylua

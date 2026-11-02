@@ -1,0 +1,34 @@
+$ dnf repolist --enabled
+# captured 2026-10-17T20:20:15-04:00
+
+repo id                                                             repo name
+copr:copr.fedorainfracloud.org:alternateved:eza                     Copr repo for eza owned by alternateved
+copr:copr.fedorainfracloud.org:atim:lazydocker                      Copr repo for lazydocker owned by atim
+copr:copr.fedorainfracloud.org:atim:lazygit                         Copr repo for lazygit owned by atim
+copr:copr.fedorainfracloud.org:atim:starship                        Copr repo for starship owned by atim
+copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter    Copr repo for SwayNotificationCenter owned by erikreider
+copr:copr.fedorainfracloud.org:errornointernet:packages             Copr repo for packages owned by errornointernet
+copr:copr.fedorainfracloud.org:errornointernet:quickshell           Copr repo for quickshell owned by errornointernet
+copr:copr.fedorainfracloud.org:lihaohong:yazi                       Copr repo for yazi owned by lihaohong
+copr:copr.fedorainfracloud.org:opuk:bottom                          Copr repo for bottom owned by opuk
+copr:copr.fedorainfracloud.org:phracek:PyCharm                      Copr repo for PyCharm owned by phracek
+copr:copr.fedorainfracloud.org:scottames:awww                       Copr repo for awww owned by scottames
+copr:copr.fedorainfracloud.org:scottames:ghostty                    Copr repo for ghostty owned by scottames
+copr:copr.fedorainfracloud.org:sdegler:hyprland                     Copr repo for hyprland owned by sdegler
+copr:copr.fedorainfracloud.org:tofik:nwg-shell                      Copr repo for nwg-shell owned by tofik
+copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly           Copr repo for wezterm-nightly owned by wezfurlong
+copr:copr.fedorainfracloud.org:yorickpeterse:stylua                 Copr repo for stylua owned by yorickpeterse
+coprdep:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #3 - erikreider/SwayNotificationCenter
+coprdep:copr.fedorainfracloud.org:mochaa:gtk-session-lock           Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #1 - mochaa/gtk-session-lock
+coprdep:copr.fedorainfracloud.org:tofik:sway                        Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #2 - tofik/sway
+fedora                                                              Fedora 44 - x86_64
+fedora-cisco-openh264                                               Fedora 44 openh264 (From Cisco) - x86_64
+google-chrome                                                       google-chrome
+rpmfusion-free                                                      RPM Fusion for Fedora 44 - Free
+rpmfusion-free-updates                                              RPM Fusion for Fedora 44 - Free - Updates
+rpmfusion-nonfree                                                   RPM Fusion for Fedora 44 - Nonfree
+rpmfusion-nonfree-nvidia-driver                                     RPM Fusion for Fedora 44 - Nonfree - NVIDIA Driver
+rpmfusion-nonfree-steam                                             RPM Fusion for Fedora 44 - Nonfree - Steam
+rpmfusion-nonfree-updates                                           RPM Fusion for Fedora 44 - Nonfree - Updates
+tailscale-stable                                                    Tailscale stable
+updates                                                             Fedora 44 - x86_64 - Updates

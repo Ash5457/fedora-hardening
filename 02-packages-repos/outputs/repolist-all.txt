@@ -1,0 +1,61 @@
+$ dnf repolist --all
+# captured 2026-10-17T20:20:27-04:00
+
+repo id                                                             repo name                                                                                                  status
+copr:copr.fedorainfracloud.org:alternateved:eza                     Copr repo for eza owned by alternateved                                                                   enabled
+copr:copr.fedorainfracloud.org:atim:lazydocker                      Copr repo for lazydocker owned by atim                                                                    enabled
+copr:copr.fedorainfracloud.org:atim:lazygit                         Copr repo for lazygit owned by atim                                                                       enabled
+copr:copr.fedorainfracloud.org:atim:starship                        Copr repo for starship owned by atim                                                                      enabled
+copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter    Copr repo for SwayNotificationCenter owned by erikreider                                                  enabled
+copr:copr.fedorainfracloud.org:errornointernet:packages             Copr repo for packages owned by errornointernet                                                           enabled
+copr:copr.fedorainfracloud.org:errornointernet:quickshell           Copr repo for quickshell owned by errornointernet                                                         enabled
+copr:copr.fedorainfracloud.org:lihaohong:yazi                       Copr repo for yazi owned by lihaohong                                                                     enabled
+copr:copr.fedorainfracloud.org:opuk:bottom                          Copr repo for bottom owned by opuk                                                                        enabled
+copr:copr.fedorainfracloud.org:phracek:PyCharm                      Copr repo for PyCharm owned by phracek                                                                    enabled
+copr:copr.fedorainfracloud.org:scottames:awww                       Copr repo for awww owned by scottames                                                                     enabled
+copr:copr.fedorainfracloud.org:scottames:ghostty                    Copr repo for ghostty owned by scottames                                                                  enabled
+copr:copr.fedorainfracloud.org:sdegler:hyprland                     Copr repo for hyprland owned by sdegler                                                                   enabled
+copr:copr.fedorainfracloud.org:tofik:nwg-shell                      Copr repo for nwg-shell owned by tofik                                                                    enabled
+copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly           Copr repo for wezterm-nightly owned by wezfurlong                                                         enabled
+copr:copr.fedorainfracloud.org:yorickpeterse:stylua                 Copr repo for stylua owned by yorickpeterse                                                               enabled
+coprdep:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #3 - erikreider/SwayNotificationCenter  enabled
+coprdep:copr.fedorainfracloud.org:mochaa:gtk-session-lock           Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #1 - mochaa/gtk-session-lock            enabled
+coprdep:copr.fedorainfracloud.org:tofik:sway                        Copr copr.fedorainfracloud.org/tofik/nwg-shell runtime dependency #2 - tofik/sway                         enabled
+fedora                                                              Fedora 44 - x86_64                                                                                        enabled
+fedora-cisco-openh264                                               Fedora 44 openh264 (From Cisco) - x86_64                                                                  enabled
+fedora-cisco-openh264-debuginfo                                     Fedora 44 openh264 (From Cisco) - x86_64 - Debug                                                         disabled
+fedora-cisco-openh264-source                                        Fedora 44 openh264 (From Cisco) - x86_64 - Source                                                        disabled
+fedora-debuginfo                                                    Fedora 44 - x86_64 - Debug                                                                               disabled
+fedora-source                                                       Fedora 44 - Source                                                                                       disabled
+google-chrome                                                       google-chrome                                                                                             enabled
+rpmfusion-free                                                      RPM Fusion for Fedora 44 - Free                                                                           enabled
+rpmfusion-free-debuginfo                                            RPM Fusion for Fedora 44 - Free - Debug                                                                  disabled
+rpmfusion-free-source                                               RPM Fusion for Fedora 44 - Free - Source                                                                 disabled
+rpmfusion-free-updates                                              RPM Fusion for Fedora 44 - Free - Updates                                                                 enabled
+rpmfusion-free-updates-debuginfo                                    RPM Fusion for Fedora 44 - Free - Updates Debug                                                          disabled
+rpmfusion-free-updates-source                                       RPM Fusion for Fedora 44 - Free - Updates Source                                                         disabled
+rpmfusion-free-updates-testing                                      RPM Fusion for Fedora 44 - Free - Test Updates                                                           disabled
+rpmfusion-free-updates-testing-debuginfo                            RPM Fusion for Fedora 44 - Free - Test Updates Debug                                                     disabled
+rpmfusion-free-updates-testing-source                               RPM Fusion for Fedora 44 - Free - Test Updates Source                                                    disabled
+rpmfusion-nonfree                                                   RPM Fusion for Fedora 44 - Nonfree                                                                        enabled
+rpmfusion-nonfree-debuginfo                                         RPM Fusion for Fedora 44 - Nonfree - Debug                                                               disabled
+rpmfusion-nonfree-nvidia-driver                                     RPM Fusion for Fedora 44 - Nonfree - NVIDIA Driver                                                        enabled
+rpmfusion-nonfree-nvidia-driver-debuginfo                           RPM Fusion for Fedora 44 - Nonfree - NVIDIA Driver Debug                                                 disabled
+rpmfusion-nonfree-nvidia-driver-source                              RPM Fusion for Fedora 44 - Nonfree - NVIDIA Driver Source                                                disabled
+rpmfusion-nonfree-source                                            RPM Fusion for Fedora 44 - Nonfree - Source                                                              disabled
+rpmfusion-nonfree-steam                                             RPM Fusion for Fedora 44 - Nonfree - Steam                                                                enabled
+rpmfusion-nonfree-steam-debuginfo                                   RPM Fusion for Fedora 44 - Nonfree - Steam Debug                                                         disabled
+rpmfusion-nonfree-steam-source                                      RPM Fusion for Fedora 44 - Nonfree - Steam Source                                                        disabled
+rpmfusion-nonfree-updates                                           RPM Fusion for Fedora 44 - Nonfree - Updates                                                              enabled
+rpmfusion-nonfree-updates-debuginfo                                 RPM Fusion for Fedora 44 - Nonfree - Updates Debug                                                       disabled
+rpmfusion-nonfree-updates-source                                    RPM Fusion for Fedora 44 - Nonfree - Updates Source                                                      disabled
+rpmfusion-nonfree-updates-testing                                   RPM Fusion for Fedora 44 - Nonfree - Test Updates                                                        disabled
+rpmfusion-nonfree-updates-testing-debuginfo                         RPM Fusion for Fedora 44 - Nonfree - Test Updates Debug                                                  disabled
+rpmfusion-nonfree-updates-testing-source                            RPM Fusion for Fedora 44 - Nonfree - Test Updates Source                                                 disabled
+tailscale-stable                                                    Tailscale stable                                                                                          enabled
+updates                                                             Fedora 44 - x86_64 - Updates                                                                              enabled
+updates-debuginfo                                                   Fedora 44 - x86_64 - Updates - Debug                                                                     disabled
+updates-source                                                      Fedora 44 - Updates Source                                                                               disabled
+updates-testing                                                     Fedora 44 - x86_64 - Test Updates                                                                        disabled
+updates-testing-debuginfo                                           Fedora 44 - x86_64 - Test Updates Debug                                                                  disabled
+updates-testing-source                                              Fedora 44 - Test Updates Source                                                                          disabled

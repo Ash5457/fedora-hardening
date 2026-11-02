@@ -1,0 +1,5 @@
+$ flatpak remotes
+# captured 2026-10-17T20:21:43-04:00
+
+fedora	system,oci
+flathub	system,filtered

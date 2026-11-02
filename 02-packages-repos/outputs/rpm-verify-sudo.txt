@@ -1,0 +1,8 @@
+$ rpm -V sudo
+# captured 2026-10-17T20:23:03-04:00
+
+..?......  c /etc/sudo.conf
+..?......  c /etc/sudoers
+..?......    /usr/bin/sudo
+..?......    /usr/bin/sudoreplay
+missing     /var/db/sudo/lectured (Permission denied)
