@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up Obsidian vault
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/obsidian-backup.sh
